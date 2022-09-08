@@ -1,6 +1,5 @@
-.parallax 
-{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)   0%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(/imgs/low-poly-abstract-artwork-4k_1539371110.jpg.webp);
+.parallax {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/imgs/dark-paper-layers-wallpaper-with-golden-details_23-2148403401.webp);
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -11,8 +10,7 @@
 }
 
 
-#content
-{
+#content {
     background-color: #181818;
     box-sizing: border-box;
     height: 100vh;
@@ -23,12 +21,3 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
