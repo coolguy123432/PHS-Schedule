@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Poolesville Highschool Schedule</title>
+</head>
+
+<body>
+    <section class="parallax">
+        <div class="text-center p-5">
+            <section class="display-5 fw-lighter">
+                PHS Schedule
+            </section>
+            <section class="text-animation ">
+                <div id="current_date" class="display-5 fw-lighter">
+                    </p>
+                    <script>
+                        date = new Date();
+                        year = date.getFullYear();
+                        month = date.getMonth() + 1;
+                        day = date.getDate();
+                        document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+                    </script>
+            </section>
+            <div id="div1"class="display-6 mt-3">
+                <p id="time"></p>
+                <p id="date"></p>
+              </div>
+        </div>
+    </section>
+</body>
+
+</html>
